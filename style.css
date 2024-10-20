@@ -60,13 +60,6 @@ nav {
     list-style: none;
 }
 
-/*.menu li{
-    background-color: white;
-    list-style: none;
-    flex: 1;
-    justify-self: flex-start;
-    cursor: pointer;
-}*/
 
 .hero {
     display: flex;
@@ -113,6 +106,55 @@ nav {
 .signup:hover {
     background-color: #2867d4;
     transform: scale(1.05);
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.gallery {
+    margin: 5% ;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallery-card {
+    width:  200px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-10px);
+}
+
+.gallery-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gallery-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.card-subtext {
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
 }
 
 
