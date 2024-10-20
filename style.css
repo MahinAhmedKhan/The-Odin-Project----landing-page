@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+.header{
+    background-color: #1f2937;
+    border: 1px solid transparent;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 10px;
+    padding: 10px 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 8%;
+    flex:1;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.menu, .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e5e7eb;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: #f9faf8;
+}
+
+.menu li{
+    list-style: none;
+}
+
+/*.menu li{
+    background-color: white;
+    list-style: none;
+    flex: 1;
+    justify-self: flex-start;
+    cursor: pointer;
+}*/
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 60px;    
+}
+
+.description, .hero-image {
+    margin: 15px;
+}
+
+.description {
+    flex: 1;
+    padding-left: 8%;
+    align-self: center;
+}
+
+
+
+.hero-image {
+    flex: 2;
+}
+
+.hero-image img {
+    width: 500px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.signup:hover {
+    background-color: #2867d4;
+    transform: scale(1.05);
+}
+
+
