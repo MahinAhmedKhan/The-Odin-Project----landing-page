@@ -180,16 +180,65 @@ nav {
 }
 
 .action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #ffffff; 
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
 }
 
 .call-action {
-    width: 70%;
-    height: auto;
-    margin: 50px;
-    background-color: #3882f6;
+    background-color: #2979ff;
+    width: 1000px;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px; 
+    border-radius: 10px;
 }
 
+.action-message {
+    max-width: 600px; 
+    text-align: left;
+}
 
+.cta-main {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cta-sub {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.action-btn {
+    background-color: #2979ff; 
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #ffffff; 
+    color: #2979ff;
+}
+
+footer {
+    height: 80px;
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    padding:30px;
+}
